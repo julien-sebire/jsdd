@@ -2,6 +2,19 @@
 
 This repo gathers all Neurone6 development workflows and processes.
 
+## make your own documentation
+
+### Markdown
+
+We use the Markdown syntax to write down our documentation http://daringfireball.net/projects/markdown/syntax
+ GitHub Flavored Markdown (or GFM), here are the [basics](https://help.github.com/articles/github-flavored-markdown).
+
+You may want to visualize your markdown files before pushing them online:
+
+[Chrome extension](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd?hl=en) (click on FREE + at top-right to install)
+[Windows installer](https://bitbucket.org/wcoenen/downmarker/downloads)
+[Mac version]() (any mac user out there ?)
+
 ## Versioning your collaborative work with Git and GitHub
 
 Here is a list of guidelines to how we manage collaborative work at Neurone6, using the excellent tools Git and GitHub are providing.
