@@ -40,7 +40,27 @@ In particular, the following pages are strongly recommended:
 
 - **[Interactive cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)**
 
+#### Tools
+
+*This section is a WIP*
+
+You can do all the job on the command line or use some gui tools :
+
+- On Linux, git comes with everything already included :
+
+  - git command line aliases (*help wanted*)
+
+  - git gui + gitk (*help wanted*)
+
+- On Windows:
+
+  - git bash with MsysGit (*help wanted*)
+
+  - many [third-party git GUIs](http://git-scm.com/downloads/guis)
+
 #### Some specific tasks detailed:
+
+*This section is a WIP*
 
 - [How to ignore mistakingly tracked files](https://github.com/neurone6/devdoc/blob/master/versioning/ignore_mistakingly_tracked_files.md)
 
@@ -48,16 +68,18 @@ In particular, the following pages are strongly recommended:
 
 For medium to large-scale projects, we use the [Git Flow branching model](http://pygmeeweb.com/2013/09/02/git-the-gitflow-way.html).
 
-- **[Cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/)**
+- **[Git Flow cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/)**
 
 -----
 ### GitHub
+
+*This section is a WIP*
 
 Even if there are other places existing, [GitHub](https://github.com/) is our natural choice to store our collaborative work online.
 
 - [Begin your existence on GitHub](https://github.com/signup/free): having a membership at github.com allows you to store your own work, contribute to other projects, fork repositories, ...
 
-- [Submit and resolve a bug](https://github.com/neurone6/devdoc/blob/master/versioning/bug_submit_and_resolve.md)
+- [Submit and resolve an issue](https://github.com/neurone6/devdoc/blob/master/versioning/bug_submit_and_resolve.md)
 
 - [Pull request workflow](https://github.com/neurone6/devdoc/blob/master/versioning/pull_request_worflow.md)
 
