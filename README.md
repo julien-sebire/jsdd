@@ -75,9 +75,11 @@ You can do all the job on the command line or use some gui tools :
 <a name="a_git_tasks"></a>
 #### Some specific tasks detailed:
 
-- [How to ignore mistakingly tracked files](versioning/git_ignore_mistakingly_tracked_files.md) -- ***WIP***
+- [How to ignore mistakenly tracked files](versioning/git_ignore_mistakenly_tracked_files.md)
 
 - [How to change your last commit's message](versioning/git_change_your_last_commit_message.md)
+
+- [How to stage deleted files](versioning/git_stage_deleted_files.md)
 
 <a name="a_git_workflows"></a>
 #### Git workflows

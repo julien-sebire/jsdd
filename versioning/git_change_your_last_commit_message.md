@@ -22,7 +22,7 @@ Say you just committed and typed something wrong as the message:
 
 - If you already pushed your commit, ***DON'T AMEND YOUR COMMIT***, as it may break the repository tree that others may have already pulled, merged and pushed again...
 
-  In this case, neverind your typo.
-  The ony serious problem is if you pushed a commit which has [automatically closed a bug](github_submit_and_resolve_an_issue.md) with the wrong number on GitHub. You then have to manually re-open the wrongly closed bug on GitHub, and close the right one.
+  In this case, nevermind your typo.
+  The ony serious problem happens if you pushed a commit which has [automatically closed a bug](github_submit_and_resolve_an_issue.md) with the wrong number on GitHub. You then have to manually re-open the wrongly closed bug and close the right one on GitHub.
 
 For other cases (not the last commit to change, more than one, ...), here is [a good discussion on the subject on StackOverflow](http://stackoverflow.com/a/180085/1942472).
