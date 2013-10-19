@@ -25,7 +25,7 @@ However stated so on [this page](https://help.github.com/articles/github-flavore
 
 You may want to visualize your markdown files before pushing them online:
 
-- [Chrome extension](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd?hl=en) (click on FREE+ at top-right to install)
+- [Chrome extension](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd?hl=en) (click on FREE+ at top-right to install). This doesn't implement the [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) syntax.
 
 - [Windows installer](https://bitbucket.org/wcoenen/downmarker/downloads)
 
