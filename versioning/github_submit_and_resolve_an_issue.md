@@ -1,4 +1,3 @@
-# Neurone6 development documentation
 [Back to Neurone6 development documentation root](../README.md)
 
 # How to submit and resolve an issue on GitHub
@@ -22,14 +21,12 @@ As long as you are able to collaborate to a repository, you can provide feedback
 1. You can manually close an issue by just clicking on the Close button below message form.
 
 1. You can automaticaly close one or more issue through your commit message. Just include one of the closing words followed by a # and the issue number in your commit message. For example:
-
   ```
   git commit -m 'Fixed #32'
   git push origin
   ```
 
   When pushed to the GitHub repo, the issue is automatically closed.
-
   Closing words (case-insentitive) are : close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved.
 
-  You can also automatically close an issue through a [pull request](pull_request_workflow.md) message (not title) and across repositories by following [these simple rules](https://help.github.com/articles/closing-issues-via-commit-messages).
+You can also automatically close an issue through a [pull request](pull_request_workflow.md) message body (not title) and across repositories by following [these simple rules](https://help.github.com/articles/closing-issues-via-commit-messages).
