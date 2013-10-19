@@ -18,15 +18,18 @@ Once you've found a bug or wish to suggest a better way to do something, the bes
 As long as you are able to collaborate to a repository, you can provide feedback to an issue by eaving comment.
 
 ## Close an issue
-You can automaticaly close one or more issue through your commit message. Just include one of the closing words followed by a # and the issue number in your commit message. For example:
 
-```
-git commit -m 'Fixed #32'
-git push origin
-```
+1. You can manually close an issue by just clicking on the Close button below message form.
 
-When pushed to the GitHub repo, the issue is automatically closed.
+1. You can automaticaly close one or more issue through your commit message. Just include one of the closing words followed by a # and the issue number in your commit message. For example:
 
-Closing words (case-insentitive) are : close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved.
+  ```
+  git commit -m 'Fixed #32'
+  git push origin
+  ```
 
-You can also automatically close an issue through a [pull request](pull_request_workflow.md) message (not title) and across repositories by following [these simple rules](https://help.github.com/articles/closing-issues-via-commit-messages).
+  When pushed to the GitHub repo, the issue is automatically closed.
+
+  Closing words (case-insentitive) are : close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved.
+
+  You can also automatically close an issue through a [pull request](pull_request_workflow.md) message (not title) and across repositories by following [these simple rules](https://help.github.com/articles/closing-issues-via-commit-messages).

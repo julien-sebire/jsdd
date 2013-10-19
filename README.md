@@ -77,7 +77,7 @@ You can do all the job on the command line or use some gui tools :
 
 - [How to ignore mistakingly tracked files](versioning/git_ignore_mistakingly_tracked_files.md) -- ***WIP***
 
-- [How to change your last commit's message](versioning/git_change_your_last_commit_message.md) -- ***WIP***
+- [How to change your last commit's message](versioning/git_change_your_last_commit_message.md)
 
 <a name="a_git_workflows"></a>
 #### Git workflows
