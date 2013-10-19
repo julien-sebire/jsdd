@@ -1,15 +1,27 @@
-# Development documentation
+# Neurone6 development documentation
 
 This repo gathers all Neurone6 development workflows and processes.
+
+## Contents
+
+1. [Make your own documentation with markdown](#a_markdown)
+1. Git
+  1. [Understanding Git](#a_git_start)
+  1. [Git tools](#a_git_tools)
+  1. [Some specific tasks](#a_git_tasks)
+  1. [Workflows](#a_git_workflows)
+1. [Working with GitHub](#a_github)
+
 
 ## Make your own documentation
 
 Writing down documentation whenever you find a way to do something new is a good way to memorize and learn.
 
+<a name="a_markdown"></a>
 ### Markdown
 
 We use the [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (.md files) to write down our documentation.
-However stated so on [this page](https://help.github.com/articles/github-flavored-markdown), it seems that GitHub basic .md files display doesn't totally apply the GitHub Flavored Markdown (or GFM) syntax, hence a double paragraph character is necessary to display separated lines.
+However stated so on [this page](https://help.github.com/articles/github-flavored-markdown), it seems that GitHub basic .md files display doesn't totally apply the [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) syntax, hence a double paragraph character is necessary to display separated lines.
 
 You may want to visualize your markdown files before pushing them online:
 
@@ -26,6 +38,7 @@ Here is a list of guidelines to how we manage collaborative work at Neurone6, us
 ----
 ### Git
 
+<a name="a_git_start"></a>
 #### Start working with Git
 
 You should really read at least the first three chapters of the wonderful and extensive online book on [Understanding Git](http://git-scm.com/documentation) by Scott Chacon.
@@ -40,9 +53,10 @@ In particular, the following pages are strongly recommended:
 
 - **[Interactive cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)**
 
+<a name="a_git_start"></a>
 #### Tools
 
-*This section is a WIP*
+*This section is WIP*
 
 You can do all the job on the command line or use some gui tools :
 
@@ -58,12 +72,14 @@ You can do all the job on the command line or use some gui tools :
 
   - many [third-party git GUIs](http://git-scm.com/downloads/guis)
 
+<a name="a_git_tasks"></a>
 #### Some specific tasks detailed:
 
-*This section is a WIP*
+- [How to ignore mistakingly tracked files](versioning/git_ignore_mistakingly_tracked_files.md) -- ***WIP***
 
-- [How to ignore mistakingly tracked files](https://github.com/neurone6/devdoc/blob/master/versioning/ignore_mistakingly_tracked_files.md)
+- [How to change your last commit's message](versioning/git_change_your_last_commit_message.md) -- ***WIP***
 
+<a name="a_git_workflows"></a>
 #### Git workflows
 
 For medium to large-scale projects, we use the [Git Flow branching model](http://pygmeeweb.com/2013/09/02/git-the-gitflow-way.html).
@@ -71,19 +87,18 @@ For medium to large-scale projects, we use the [Git Flow branching model](http:/
 - **[Git Flow cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/)**
 
 -----
+<a name="a_github"></a>
 ### GitHub
 
-*This section is a WIP*
-
-Even if there are other places existing, [GitHub](https://github.com/) is our natural choice to store our collaborative work online.
+Even if there are other places existing, [GitHub](https://github.com/) is our natural choice to store our git-managed collaborative work online.
 
 - [Begin your existence on GitHub](https://github.com/signup/free): having a membership at github.com allows you to store your own work, contribute to other projects, fork repositories, ...
 
-- [Submit and resolve an issue](https://github.com/neurone6/devdoc/blob/master/versioning/bug_submit_and_resolve.md)
+- [Submit and resolve an issue](versioning/github_submit_and_resolve_an_issue.md)
 
-- [Pull request workflow](https://github.com/neurone6/devdoc/blob/master/versioning/pull_request_worflow.md)
+- [Pull request workflow](versioning/github_pull_request_worflow.md) -- ***WIP***
 
-- [Repo management: create, invite collaborators, fork, clone, ...](https://github.com/neurone6/devdoc/blob/master/versioning/repositories_management.md)
+- [Repo management: create, invite collaborators, fork, clone, ...](versioning/github_repository_management.md) -- ***WIP***
 
 ## Others topics yet to come
 
