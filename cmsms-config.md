@@ -83,9 +83,9 @@ RewriteRule ^(.+)\.html$ index.php?page=$1 [QSA]
 
 ## Access the admin
 
-Well everything front is working fine but you can't access the admin anymore. No wrong login/password warning but you stay on he login page...
+Well everything front is working fine but in my case, I can't access the admin anymore. No wrong login/password warning but I stay on the login page...
 
-My dirty fix for the moment: set back the admin url to the dev address. After all, it's all for the client to see, then he can keep on remembering who made his website. Add the following line in CMSMS config.php:
+My dirty fix for the moment: set back the admin url to the dev address. After all, it's all for the client to see, then he can keep on remembering who made his website. Add the following line in CMSMS config.php, don't forget to append the admin directory's name (admin here):
 
 ```php
 $config['admin_url'] = 'http://dev.my-agency.com/my-client-domain/admin';
@@ -93,6 +93,14 @@ $config['admin_url'] = 'http://dev.my-agency.com/my-client-domain/admin';
 
 ## CMSMS-side
 
-Finally, don't forget to give your pages the right alias/url. Get to the admin, in the Content/Pages list, setup the *page alias* and *url* fields to the right name. They both will be matched to route to your content, you can event use content.html in url with no harm.
+Finally, don't forget to give your pages the right alias/url. Get to the admin, in the Content>Pages list, setup the *page alias* and *url* fields to the right name. They both will be matched to route to your content, you can event use content.html in url with no harm:
 
-This is it.
+Working:
+
+*page alias*: content
+
+*url*: content
+
+*url*: content.html
+
+And this is it.
