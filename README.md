@@ -12,7 +12,7 @@ This repo gathers all Neurone6 development workflows and processes.
   1. [Workflows](#a_git_workflows)
 1. [Working with GitHub](#a_github)
 
-1. [Configure a CMSMS website for url rewriting support](#a_cmsms)
+1. [Configure a CMSMS website for url rewriting support](cmsms-config.md)
 
 
 ## Make your own documentation
