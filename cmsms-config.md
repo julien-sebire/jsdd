@@ -1,16 +1,16 @@
 [Back to Neurone6 development documentation root](README.md)
 
-# Configure a CMSMS website for url rewriting support
+# Configure a [CMSMS](http://www.cmsmadesimple.org/) website with url rewriting support
 
 Ok, my requirements are a bit special on this case:
 
 - I need to have a vhost with the following pattern: www.my-client-domain.com
 
-- My development is at: dev.my-agency.com/my-client-domain/ and I don't want to move it to keep my workflow with git.
+- My development is at: http://dev.my-agency.com/my-client-domain/ and I don't want to move it in order to keep my workflow with git.
 
-- There are existing pages at google with the form http://www.my-client-domain.com/content.html and I want to keep the seo, hence, the url's or at least send a status R=301 for google to update its links when the news website's urls aren't exactly the same.
+- There are existing pages at Google with the form http://www.my-client-domain.com/content.html and I want to keep the seo, that is the urls, or at least send a status R=301 for Google to update its links when the new website's urls aren't exactly the same.
 
-- Url in the browser address bar has to be http://www.my-client-domain.com/content.html
+- Visible Url in the browser's address bar has to be in the form http://www.my-client-domain.com/content.html
 
 Current configuration:
 
@@ -20,9 +20,9 @@ Current configuration:
 
 ## Setting up the proxy redirection and seo urls
 
-In my vhost my-client-domain.com/httpdocs/.htaccess:
+In my vhost root, .htaccess goes:
 
-```ini
+```
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
   RewriteEngine on
@@ -30,16 +30,16 @@ In my vhost my-client-domain.com/httpdocs/.htaccess:
   # old urls
   RewriteRule ^index.html$   /                 [L,R=301]
   RewriteRule ^content.html$ /new-content.html [L,R=301]
+  # ...
 
   # proxy
   RewriteRule ^(.*)$ http://dev.my-agency.com/my-client-domain/$1 [P,L,QSA]
 </IfModule>
 ```
 
-## Seting up the visible url in browser address bar
+## Seting up the visible url in browser's address bar
 
 In the CMSMS directory/config.php, add:
-
 ```php
 // allow website to stay behind an url rewriting module
 $config['root_url'] = 'http://www.my-client-domain.com';
@@ -51,23 +51,31 @@ $config['query_var']      = 'page';
 ```
 
 In the CMSMS directory/.htaccess, uncomment this line:
-
-```ini
+```
 #Options +FollowSymLinks
 ```
 becomes:
-```ini
+```
 Options +FollowSymLinks
 ```
 
-Find the following lines, uncomment them if need and add your page extension (.html in here) in the RewriteRule regex:
-```ini
+Set the RewriteBase to the subdirectory on the dev subdomain :
+```
+RewriteBase /
+```
+becomes:
+```
+RewriteBase /my-client-domain
+```
+
+Find the following lines, uncomment them if needed and add your page extension (.html in here) in the RewriteRule regex:
+```
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule ^(.+)$ index.php?page=$1 [QSA]
 ```
 becomes:
-```ini
+```
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)\.html$ index.php?page=$1 [QSA]
@@ -75,9 +83,9 @@ RewriteRule ^(.+)\.html$ index.php?page=$1 [QSA]
 
 ## Access the admin
 
-Well everything front is fine but you can't access the admin anymore. No wrong login/password warning but you stay on he login page...
+Well everything front is working fine but you can't access the admin anymore. No wrong login/password warning but you stay on he login page...
 
-My fix: set back the admin url to the old address. After all, it all for the client to see, so he can keep on remebering who made his website. Add the following line in CMSMS config.php:
+My dirty fix for the moment: set back the admin url to the dev address. After all, it's all for the client to see, then he can keep on remembering who made his website. Add the following line in CMSMS config.php:
 
 ```php
 $config['admin_url'] = 'http://dev.my-agency.com/my-client-domain/admin';
