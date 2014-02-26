@@ -1,6 +1,6 @@
-[Back to Neurone6 development documentation root](../README.md)
+[Neurone6 devdoc](../README.md) &gt; [Start with Git](git-start.md) &gt; stage deleted files from anywhere in the working tree
 
-# How to stage deleted files from anywhere in the working directory
+# How to stage deleted files from anywhere in the working tree
 
 You have deleted or renamed some files and they appear as deleted in your ```git status``` result:
 ```bash

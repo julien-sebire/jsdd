@@ -1,4 +1,4 @@
-[Back to Neurone6 development documentation root](README.md)
+[Neurone6 devdoc](../README.md) &gt; CMSMS + url rewriting
 
 # Configure a [CMSMS](http://www.cmsmadesimple.org/) website with url rewriting support
 
@@ -26,7 +26,7 @@ In my vhost root, .htaccess goes:
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
   RewriteEngine on
-  
+
   # old urls
   RewriteRule ^index.html$   /                 [L,R=301]
   RewriteRule ^content.html$ /new-content.html [L,R=301]

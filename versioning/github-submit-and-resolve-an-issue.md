@@ -1,4 +1,4 @@
-[Back to Neurone6 development documentation root](../README.md)
+[Neurone6 devdoc](../README.md) &gt; [GitHub](github.md) &gt; Submit and resolve an issue
 
 # How to submit and resolve an issue on GitHub
 

@@ -1,4 +1,4 @@
-[Back to Neurone6 development documentation root](../README.md)
+[Neurone6 devdoc](../README.md) &gt; [Start with Git](git-start.md) &gt; Change your last commit message
 
 # How to change your last commit message
 
