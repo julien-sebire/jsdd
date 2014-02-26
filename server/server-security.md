@@ -93,8 +93,6 @@ Setup ACL
 sudo apt-get install acl
 ```
 
-**TODO** ?
-
 
 <a name="a_server_access"></a>
 ## Server access

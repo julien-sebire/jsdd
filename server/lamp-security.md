@@ -73,6 +73,7 @@ This will create:
 - /etc/apache2/mod-available/security2.load
 
 Configure default rules
+
 _[source](https://github.com/SpiderLabs/ModSecurity/wiki/Reference-Manual)_
 
 ```
@@ -96,7 +97,7 @@ SecRequestBodyInMemoryLimit 4194304
 
 ### Owasp CRS (Core Rule Set)
 
-_[source](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)_
+[source](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
 
 Download and untar default CRS
 

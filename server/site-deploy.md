@@ -65,6 +65,8 @@ sudo service apache2 reload
 <a name="a_git_deploy"></a>
 ## Deploy with git
 
+__**WIP**__
+
 Create bare repo in ~/git and add remote to local copy:
 
 **On local computer:**
