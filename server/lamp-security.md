@@ -149,7 +149,7 @@ sudo service apache2 restart
 This should give you this single line :
 
 ```
- * Restarting web server apache2
+ * Restarting web server apache2 [ OK ]
 ```
 
 If more, there has been a problem!
