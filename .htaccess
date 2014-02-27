@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  # local : no RewriteBase
+#  RewriteBase /
+
+  # default index
+  RewriteRule ^$                  README.md              [L]
+
+  # forbid direct access to php parser
+#  RewriteCond %{SCRIPT_FILENAME}  !(^.*md.php$)           [NC]
+#  RewriteCond ^(.*)\.php$   README.md   [NC]
+
+  # parse md files with Parsedown
+  RewriteRule ^(.*)\.md$    md.php?file=$1           [L]
+</IfModule>
