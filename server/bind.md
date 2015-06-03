@@ -3,6 +3,14 @@
 # Bind9 configuration
 [Source](http://howto.biapy.com/fr/debian-gnu-linux/serveurs/autres/configurer-un-serveur-dns-bind-sur-debian)
 
+## Installation
+
+Bind9 should be already installed, if not :
+
+```
+apt-get install bind9
+```
+
 ## Logging
 
 Create logging dir :
@@ -73,6 +81,24 @@ Enable log rotation:
 ```
 vi /etc/logrotate.d/bind9
 ```
+
+Add the following
+
+```content
+/var/log/named/*.log {
+  daily
+  missingok
+  rotate 7
+  compress
+  delaycompress
+  notifempty
+  create 644 bind bind
+  postrotate
+    /usr/sbin/invoke-rc.d bind9 reload > /dev/null
+  endscript
+}
+```
+
 
 ## Setup DNS forward server
 
@@ -147,6 +173,6 @@ enabled = true
 ## Finally restart bind and fail2ban:
 
 ```
-/etc/init.d/fail2ban restart
-/etc/init.d/bind9 restart
+service fail2ban restart
+service bind9 restart
 ```

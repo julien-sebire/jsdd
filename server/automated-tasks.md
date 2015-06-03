@@ -9,13 +9,13 @@
 Install auto-upgrader
 
 ```
-sudo apt-get install unattended-upgrades
+apt-get install unattended-upgrades
 ```
 
 Configure the updates you want
 
 ```
-sudo vi /etc/apt/apt.conf.d/10periodic
+vi /etc/apt/apt.conf.d/10periodic
 ```
 
 With content :
@@ -30,7 +30,7 @@ APT::Periodic::Unattended-Upgrade "1";
 And this file
 
 ```
-sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
+vi /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 
 Keep updates disabled and stick with security updates only
@@ -58,8 +58,8 @@ Unattended-Upgrade::Mail "your@e.mail";
 Install and configure logwatch
 
 ```
-sudo apt-get install logwatch
-sudo vi /etc/cron.daily/00logwatch
+apt-get install logwatch
+vi /etc/cron.daily/00logwatch
 ```
 
 Replace this line

@@ -44,7 +44,7 @@ Enable e-mail sending with whois and relevant log lines.
 action = %(action_mwl)s
 ```
 
-Restart the service. This should send you a first e-mail.
+Restart the service. This should send you a first e-mail, provided you have at least [installed and configured a MTA](mta.md).
 
 ```
 service fail2ban restart
