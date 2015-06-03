@@ -15,12 +15,8 @@ You may want to visualize your markdown files before pushing them online:
 
 - [Windows installer](https://bitbucket.org/wcoenen/downmarker/downloads)
 
-- [Mac version]() (any mac-using developer out there ?)
-
 Or you can use this very simplistic solution actually providing these pages:
 
 - .htaccess: to redirect *.md to md.php in root directory (defaults to README.md)
 - Parsedown.php: a php md parser class (thanks to Emanuil Rusev)
 - md.php: a little script to glue it all
-
-All together in this [.zip file](md.zip)

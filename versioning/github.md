@@ -8,6 +8,6 @@ Even if there are other places existing, [GitHub](https://github.com/) is our na
 
 - [Submit and resolve an issue](github-submit-and-resolve-an-issue.md)
 
-- [Pull request workflow](github-pull-request-worflow.md) -- ***WIP***
+- [Pull request workflow](github-pull-request-worflow.md) -- ***TODO***
 
-- [Repo management: create, invite collaborators, fork, clone, ...](github-repository-management.md) -- ***WIP***
+- [Repo management: create, invite collaborators, fork, clone, ...](github-repository-management.md) -- ***TODO***

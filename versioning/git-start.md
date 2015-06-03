@@ -30,7 +30,7 @@ In particular, the following pages are strongly recommended:
 <a name="a_git_tools"></a>
 ## Tools
 
-*This section is WIP*
+***This section is WIP***
 
 You can do all the job on the command line or use some gui tools :
 

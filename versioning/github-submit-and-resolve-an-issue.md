@@ -33,4 +33,4 @@ As long as you are able to collaborate to a repository, you can provide feedback
 
   This doesn't totally work on my first try. It identifies the issue but doesn't close it... weird...
 
-You can also automatically close an issue through a [pull request](pull_request_workflow.md) message body (not title) and across repositories by following [these simple rules](https://help.github.com/articles/closing-issues-via-commit-messages).
+You can also automatically close an issue through a [pull request](github-pull-request-worflow.md) message body (not title) and across repositories by following [these simple rules](https://help.github.com/articles/closing-issues-via-commit-messages).
