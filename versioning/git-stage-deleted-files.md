@@ -1,4 +1,4 @@
-[Neurone6 devdoc](../README.md) &gt; [Start with Git](git-start.md) &gt; stage deleted files from anywhere in the working tree
+[JSDD](../README.md) &gt; [Start with Git](git-start.md) &gt; stage deleted files from anywhere in the working tree
 
 # How to stage deleted files from anywhere in the working tree
 

@@ -1,4 +1,4 @@
-[Neurone6 devdoc](../README.md) &gt; [GitHub](github.md) &gt; Repository management
+[JSDD](../README.md) &gt; [GitHub](github.md) &gt; Repository management
 
 # Repository management
 

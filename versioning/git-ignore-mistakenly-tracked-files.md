@@ -1,4 +1,4 @@
-[Neurone6 devdoc](../README.md) &gt; [Start with Git](git-start.md) &gt; Ignore mistakenly tracked files
+[JSDD](../README.md) &gt; [Start with Git](git-start.md) &gt; Ignore mistakenly tracked files
 
 # How to ignore mistakenly tracked files
 

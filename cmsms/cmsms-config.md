@@ -1,4 +1,4 @@
-[Neurone6 devdoc](../README.md) &gt; CMSMS + url rewriting
+[JSDD](../README.md) &gt; CMSMS + url rewriting
 
 # Configure a [CMSMS](http://www.cmsmadesimple.org/) website with url rewriting support
 
@@ -39,7 +39,7 @@ In my vhost root, .htaccess goes:
 
 ## Seting up the visible url in browser's address bar
 
-A little dig in the [CMSMS documentation](http://dev.neurone6.com/CMSMS_config_reference.pdf) gave me the hints:
+A little dig in the [CMSMS documentation](CMSMS_config_reference.pdf) gave me the hints:
 
 In the CMSMS directory/config.php, add:
 ```php

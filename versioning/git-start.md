@@ -1,8 +1,8 @@
-[Neurone6 devdoc](../README.md) &gt; Start with Git
+[JSDD](../README.md) &gt; Start with Git
 
 # Versioning your collaborative work with Git
 
-Here is a list of guidelines to how we manage collaborative work at Neurone6, using the excellent versioning tools Git provides.
+Here is a list of guidelines to how I manage my collaborative work, using the excellent versioning tools Git provides.
 
 ## Contents
 

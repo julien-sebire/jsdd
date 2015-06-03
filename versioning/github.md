@@ -1,4 +1,4 @@
-[Neurone6 devdoc](../README.md) &gt; GitHub
+[JSDD](../README.md) &gt; GitHub
 
 # GitHub
 

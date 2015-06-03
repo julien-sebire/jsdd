@@ -1,4 +1,4 @@
-[Neurone6 devdoc](../README.md) &gt; [GitHub](github.md) &gt; Submit and resolve an issue
+[JSDD](../README.md) &gt; [GitHub](github.md) &gt; Submit and resolve an issue
 
 # How to submit and resolve an issue on GitHub
 
