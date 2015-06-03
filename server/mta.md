@@ -27,7 +27,7 @@ The file should read:
 dc_eximconfig_configtype='smarthost'
 dc_other_hostnames=''
 dc_local_interfaces='127.0.0.1'
-dc_readhost='sebi.re'
+dc_readhost='doma.in'
 dc_relay_domains=''
 dc_minimaldns='false'
 dc_relay_nets=''

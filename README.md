@@ -18,7 +18,7 @@ This repo gathers my development workflows and processes.
   - [Install git for deployment](server/git.md) -- **WIP**
 
 1. Site deployment
-  - [Configure DNS zones](site/dns.md)
+  - [Configure DNS zones](site/dns.md) -- **TODO**
   - [Configure vhost](site/vhost.md)
   - [Deploy with git](site/git.md) -- **TODO**
 
