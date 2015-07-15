@@ -51,6 +51,20 @@ COMMIT
 **!WARNING!**
 **Don't lock yourself out of your own server: xxxxx is the port number for ssh defined in /etc/ssh/sshd_config.**
 
+If you want to configure your iptables for a web server, add this on the file above on the specific section
+
+```
+# Insert other rules here (http, https, pop, imap, smtp, ...).
+# for http access
+-A INPUT -p tcp --dport 80 -j ACCEPT
+-A OUTPUT -p tcp --dport 80 -j ACCEPT
+
+# for https access
+-A INPUT -p tcp --dport 443 -j ACCEPT
+-A OUTPUT -p tcp --dport 443 -j ACCEPT
+```
+
+
 Activate these new rules:
 
 ```
