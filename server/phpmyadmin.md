@@ -28,6 +28,18 @@ add this line
     AllowOverride All
 ```
 
+add phpmyadmin to the apache configuration
+
+```
+vi /etc/apache2/apache2.conf
+```
+
+add this line
+
+```
+Include /etc/phpmyadmin/apache.conf
+```
+
 Protect phpmyadmin
 
 ```
@@ -47,4 +59,10 @@ Create password file
 
 ```
 htpasswd -c /home/dummy/.htpasswd dummy
+```
+
+Finish up by restarting apache:
+
+```
+service apache2 restart
 ```
